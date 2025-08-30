@@ -1,0 +1,30 @@
+Project: Bank Account System in Python
+
+Description:
+This project demonstrates Object-Oriented Programming (OOP) concepts in Python including encapsulation, inheritance, and polymorphism.
+
+Features:
+
+Account class with private balance and methods for deposit, withdrawal, and balance check.
+
+Savings and Current classes inherit from Account and calculate interest differently.
+
+Validates numeric input and ensures transactions respect account balance.
+
+Demonstrates real-world banking operations using Python OOP.
+
+Concepts Used:
+
+Encapsulation: Private balance attribute in Account.
+
+Inheritance: Savings and Current inherit from Account.
+
+Polymorphism: get_interest() method behaves differently in each subclass.
+
+Usage:
+
+Create instances of Savings or Current.
+
+Use deposit(amount), withdraw(amount), and get_balance() methods.
+
+Call get_interest() on savings or current accounts.
